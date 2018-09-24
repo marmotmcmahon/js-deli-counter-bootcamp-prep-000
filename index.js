@@ -21,7 +21,9 @@ function currentLine(line) {
     return "The line is currently empty.";
   } else {
     var i = 1;
-    line.forEach(){}
+    forEach(function(element) {
+      console.log(element);
+    });
   }
 }
 
