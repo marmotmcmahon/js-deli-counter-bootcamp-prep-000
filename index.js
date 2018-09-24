@@ -14,3 +14,5 @@ function nowServing(katzDeliLine) {
     return "Currently serving " + person + ".";
   }
 }
+
+function currentLine()
