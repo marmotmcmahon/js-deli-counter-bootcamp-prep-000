@@ -26,7 +26,7 @@ function currentLine(line) {
       string = string + i + ". " + e + ", ";
       i += 1;
     });
-    
+    string = string.slice(0, -2);
     return string;
   }
 }
