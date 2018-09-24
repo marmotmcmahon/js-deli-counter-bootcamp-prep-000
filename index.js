@@ -22,7 +22,7 @@ function currentLine(line) {
   } else {
     var i = 1;
     var string = "The line is currently: ";
-    forEach(function(e) {
+    line.forEach(function(e) {
       string = string + i + ". " + e + ", ";
       i += 1;
     });
