@@ -26,6 +26,7 @@ function currentLine(line) {
       string = string + i + ". " + e + ", ";
       i += 1;
     });
+    
     return string;
   }
 }
