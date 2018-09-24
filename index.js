@@ -1,3 +1,3 @@
 function takeANumber(line, person) {
-  console.log("HELLOOOOOO");
+  return "Welcome, " + ". You are number " + + "person in "
 }
