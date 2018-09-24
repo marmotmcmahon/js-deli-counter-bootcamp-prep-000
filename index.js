@@ -1,3 +1,3 @@
 function takeANumber(line, person) {
-  return "Welcome, " + person + ". You are number " + + "  in line.";
+  return "Welcome, " + person + ". You are number " + line.length() + "  in line.";
 }
