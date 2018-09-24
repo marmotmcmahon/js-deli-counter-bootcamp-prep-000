@@ -21,6 +21,7 @@ function currentLine(line) {
     return "The line is currently empty.";
   } else {
     var i = 1;
+    string = "The line is currently: ";
     forEach(function(e) {
       string = string + i + ". " + e + ", ";
       i += 1;
