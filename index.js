@@ -20,10 +20,12 @@ function currentLine(line) {
   if (line.length === 0) {
     return "The line is currently empty.";
   } else {
-    var i = 0;
+    var i = 1;
     line.forEach(function(e)) {
-      string = string + i + ". " + 
+      string = string + i + ". " + e + ", ";
+      i += 1;
     }
+    return string;
   }
 }
 
